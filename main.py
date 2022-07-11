@@ -14,9 +14,10 @@
 #     HINT: Some products can be obtained in more than one way so be sure to only include it once in your sum.
 
 from itertools import permutations
+from typing import List, Tuple
 
 
-def main():
+def main() -> Tuple[List[Tuple[int, int, int]], int]:
     """
     Returns a list of all pandigital product identities
       (as 3-tuples (m1, m2, p), where m1 × m2 = p)
